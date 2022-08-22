@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SpurIT - Тестовое задание 1. HTML и CSS</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<main>
+    <section class="product-card">
+            <h1 class="product-card__title">Товары недели</h1>
+            <ul class="product-card__list">
+                <li class="product-card__item">
+                    <img src="./assets/Orange.svg" alt="Orange" class="product-card__image">
+                    <div class="product-card__tag-wrapper">
+                        <span class="product-card__tag product-card__tag--novelty">Новинка</span>
+                        <span class="product-card__tag product-card__tag--last">Последний</span>
+                    </div>
+                    <div class="product-card__info-wrapper">
+                        <h3 class="product-card__subtitle">Апельсиновый сок</h3>
+                        <p class="product-card__description">Он придётся по душе, даже если ты слива лиловая, спелая, садовая.</p>
+                        <div class="product-card__cart-wrapper">
+                            <button class="product-card__cart product-card__cart--active">В корзину</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="product-card__item">
+                    <img src="./assets/Orange.svg" alt="Orange" class="product-card__image">
+                    <div class="product-card__info-wrapper">
+                        <h3 class="product-card__subtitle">Апельсиновый сок</h3>
+                        <p class="product-card__description">Он придётся по душе, даже если ты слива лиловая, спелая, садовая. Ну что сказать? Ну что сказать? Устроены так длинные описания.</p>
+                        <div class="product-card__cart-wrapper">
+                            <button class="product-card__cart product-card__cart--active">В корзину</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="product-card__item">
+                    <img src="./assets/Orange.svg" alt="Orange" class="product-card__image">
+                    <div class="product-card__info-wrapper">
+                        <h3 class="product-card__subtitle">Апельсиновый сок</h3>
+                        <p class="product-card__description">Он придётся по душе, даже если ты слива лиловая, спелая, садовая.</p>
+                        <div class="product-card__cart-wrapper">
+                            <button class="product-card__cart product-card__cart--disabled" disabled>Закончилось</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+    </section>
+</main>
+</body>
+</html>

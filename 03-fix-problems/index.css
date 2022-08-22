@@ -1,0 +1,45 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background: cornsilk;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+}
+
+.article {
+    background: rgba(255, 0, 0, 0);
+    max-width: 680px;
+    padding: 24px;
+}
+
+.article__heading {
+    margin-bottom: 1.5rem;
+    color: palevioletred;
+}
+
+.article__lead {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: serif;
+    margin-bottom: 1rem;
+}
+
+.article__figure {
+    margin-top: 1rem;
+}
+
+.figure__image {
+    height: auto;
+    margin-bottom: 0.5rem;
+    max-width: 100%;
+}
+
+.figure__caption {
+    font-style: italic;
+    font-family: sans-serif;
+    text-align: center;
+}
