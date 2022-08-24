@@ -3,21 +3,19 @@
 }
 
 body {
-    background: cornsilk;
-    text-align: left;
+    background: #FFF8DC;
     font-family: 'Arial', sans-serif;
     color: #000000;
 }
 
 .article {
-    background: rgba(255, 0, 0, 0);
     max-width: 680px;
-    padding: 24px;
+    padding: 1.5rem;
 }
 
 .article__heading {
     margin-bottom: 1.5rem;
-    color: palevioletred;
+    color: #DB7093;
 }
 
 .article__lead {
