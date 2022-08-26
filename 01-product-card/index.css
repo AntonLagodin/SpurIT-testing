@@ -7,6 +7,8 @@
     --color-last: #FFCF56;
     --color-disabled: #4E4E4E;
     --color-active: #1F5200;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
     --line-height: 1.5em;
 }
 
@@ -29,7 +31,7 @@ body {
     font-size: 48px;
     font-weight: 900;
     line-height: var(--line-height);
-    color: #000000;
+    color: var(--color-black);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 40px;
@@ -46,7 +48,7 @@ body {
     max-width: 380px;
     min-height: 482px;
     margin-right: 20px;
-    background-color: #ffffff;
+    background-color: var(--color-white);
     border-radius: 12px;
     margin-bottom: 60px;
     position: relative;
@@ -107,19 +109,17 @@ body {
     color: var(--color-primary);
 }
 
-.button__cart-wrapper {
+.product-card__button {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     bottom: 0;
-    left: 0;
-    width: 100%;
-    min-height: 48px;
+    left: 24px;
     margin-bottom: 24px;
 }
 
-.button__cart {
+.button {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 900;
@@ -130,27 +130,27 @@ body {
     border-radius: 8px;
 }
 
-.button__cart--active {
+.button--active {
     color: var(--color-secondary);
     border: 2px solid var(--color-secondary);
-    background-color: #ffffff;
+    background-color: var(--color-white);
     transition: all 0.3s linear;
 }
 
-.button__cart--active:hover {
+.button--active:hover {
     background-color: var(--color-secondary);
-    color: #ffffff;
+    color: var(--color-white);
 }
 
-.button__cart--active:active {
+.button--active:active {
     background-color: var(--color-active);
-    color: #ffffff;
+    color: var(--color-white);
     border-color: var(--color-active);
 }
 
-.button__cart--disabled {
+.button--disabled {
     background-color: var(--color-disabled);
-    color: #ffffff;
+    color: var(--color-white);
     border: 1px solid var(--color-disabled);
 }
 
