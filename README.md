@@ -1,4 +1,5 @@
 # Тестовое задание
+## СДЕЛАНА МОБИЛЬНАЯ ВЕРСИЯ ДЛЯ 1-ГО ЗАДАНИЯ, ПРОВЕРЕНА РАБОТА В БРАУЗЕРАХ: Mozilla, Yandex, Edge, Opera.
 * Задание 1: HTML: <a href = "https://github.com/AntonLagodin/SpurIT-testing/blob/main/01-product-card/index.html" target = "_blank">index.html</a>, CSS: <a href = "https://github.com/AntonLagodin/SpurIT-testing/blob/main/01-product-card/index.css" target = "_blank">index.css</a>, VIEW: <a href = "https://antonlagodin.github.io/SpurIT-testing/01-product-card/index.html" target = "_blank">View</a>.
 * Задание 2: JS: <a href = "https://github.com/AntonLagodin/SpurIT-testing/blob/main/02-collapse/index.js" target = "_blank">index.js</a>, VIEW: <a href = "https://antonlagodin.github.io/SpurIT-testing/02-collapse/index.html" target = "_blank">View</a>.
 * Задание 3: CSS: <a href = "https://github.com/AntonLagodin/SpurIT-testing/blob/main/03-fix-problems/index.css" target = "_blank">index.css</a>, VIEW: <a href = "https://antonlagodin.github.io/SpurIT-testing/03-fix-problems/index.html" target = "_blank">View</a>.
